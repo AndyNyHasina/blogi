@@ -1,0 +1,21 @@
+.design-item:hover{
+    transform:scale(1.2);
+}
+.design-img span:first-of-type{
+    position:absolute;
+    z-index: 1;
+    left: 10px;
+    top: 10px;
+    background: var(--exDark);
+    color: var(--exDark);
+}
+.design-img::after{
+    position:absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+      
+}
